@@ -19,8 +19,8 @@ public class Test {
 		
 		System.out.println(Cart.b);// static varaibles can be accessed directly with class name
 	
-	    DataBase d = new DataBase();
-	     d.connect();
+	    DataBase db = new DataBase();
+	     db.connect();
 	     
 	     Payment.paymentDone();// static methods can access directly with classname 
 	     
